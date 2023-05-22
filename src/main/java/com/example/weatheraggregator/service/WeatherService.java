@@ -30,7 +30,7 @@ public class WeatherService {
         if (responseEntity.getStatusCode().is2xxSuccessful()) {
             return responseEntity.getBody();
         } else {
-            // Handle error case
+            // Falls ein Fehler passiert gib ihn aus
             return null;
         }
     }

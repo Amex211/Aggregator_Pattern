@@ -24,7 +24,7 @@ public class WeatherController {
         String weatherData = weatherService.getWeatherData();
         String aggregatedData = aggregatorService.getAggregatedData();
 
-        // Combine the weather data and aggregated data as per your requirements
+        // Kombiniere Wetter und touristen Daten
         String result = "Weather: " + weatherData.toString() + ", Aggregated Data: " + aggregatedData;
 
         return result;

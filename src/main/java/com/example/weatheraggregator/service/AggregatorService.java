@@ -19,7 +19,7 @@ public class AggregatorService {
         String weatherData = weatherService.getWeatherData();
         String tourismData = tourismService.getTourismData();
 
-        // Combine the weather and tourism data as per your requirements
+        // Kombiniere Wetter und Touristendaten
         String aggregatedData = weatherData.toString() + ", Tourism: " + tourismData;
 
         return aggregatedData;

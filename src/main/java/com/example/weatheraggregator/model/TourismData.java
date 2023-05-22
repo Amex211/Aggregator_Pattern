@@ -51,9 +51,4 @@ public class TourismData {
         this.name = name;
     }
 
-    // Füge die erforderlichen Attribute für den Tourismus hinzu
-
-    // Getter und Setter
-
-    // Weitere Methoden
 }
